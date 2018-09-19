@@ -1,28 +1,55 @@
-.App {
+.actorImage{
+  width: 50px;
+}
+
+.my-table * {
   text-align: center;
+  border: 1px solid white;
+  vertical-align: middle;
+  padding: 10px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.my-table img {
+  padding: 0px;
+  border: none;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.my-table th {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.my-table{
+  margin: 0 auto;
 }
 
-.App-intro {
-  font-size: large;
+.big-title{
+  padding: 20px 0;
+  font-size: 2em;
+  text-align: center;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.button-container{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.button-container button{
+  width: 100%;
+  display: inline-block;
+}
+
+body{
+  font-size: 1.3em;
+  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+  min-height: 100vh;
 }
