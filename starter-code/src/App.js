@@ -54,7 +54,7 @@ class App extends Component {
 						<td> <img className="actorImage" alt={el.name} src={el.pictureUrl} ></img>  </td>
 						<td>{el.name}</td>
 						<td>{el.popularity}</td>
-						<td> <button className="button is-small is-danger" onClick={() => this.deleteItem(idx)} >Delete Item</button> </td>
+						<td> <button className=" custom button is-small is-danger" onClick={() => this.deleteItem(idx)} >Delete Item</button> </td>
 					</tr>)
 			})
 
@@ -75,9 +75,9 @@ class App extends Component {
 					</tbody>
 				</table>
 				<div className="button-container">
-				<button className="button button-below is-small is-primary" onClick={() => this.addRandomContact()} >Add Random Contact</button>
-				<button className="button button-below is-small is-link" onClick={() => this.sortByName()} >Sort By Name</button>
-				<button className="button button-below is-small is-warning" onClick={() => this.sortByPopularity()} >Sort By Popularity</button>
+				<button className="button custom button-below is-small is-primary" onClick={() => this.addRandomContact()} >Add Random Contact</button>
+				<button className="button custom button-below is-small is-link" onClick={() => this.sortByName()} >Sort By Name</button>
+				<button className="button custom button-below is-small is-warning" onClick={() => this.sortByPopularity()} >Sort By Popularity</button>
 				</div>
 			</div>
 		);
